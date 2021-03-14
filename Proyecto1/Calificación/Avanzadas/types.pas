@@ -189,3 +189,103 @@ begin
     // tabla de simbolos global
     //graficar_ts();
 end.
+
+{
+    ***** Imprimiendo datos del estudiante******
+***Estudiante reconocido***
+Nombre del Estudiante: Angel Asturias
+Carnet del estudiante: 2018554433
+cursos
+----------
+Codigo: 781
+Nombre: Organizacion de lenguajes y compiladores 2
+Nota: 80
+Creditos: 5
+----------
+Codigo: 722
+Nombre: Teoria de sistemas
+Nota: 90
+Creditos: 5
+----------
+Codigo: 778
+Nombre: Arquitectura computadoras y ensambladores 1
+Nota: 85
+Creditos: 5
+----------
+Codigo: 773
+Nombre: Manejo e implementacion de archivos
+Nota: 61
+Creditos: 4
+***Estudiante reconocido***
+Nombre del Estudiante: Gerardo Diaz
+Carnet del estudiante: 201755443
+cursos
+----------
+Codigo: 781
+Nombre: Organizacion de lenguajes y compiladores 2
+Nota: 80
+Creditos: 5
+----------
+Codigo: 722
+Nombre: Teoria de sistemas
+Nota: 90
+Creditos: 5
+----------
+Codigo: 778
+Nombre: Arquitectura computadoras y ensambladores 1
+Nota: 85
+Creditos: 5
+----------
+Codigo: 773
+Nombre: Manejo e implementacion de archivos
+Nota: 61
+Creditos: 4
+***Estudiante reconocido***
+Nombre del Estudiante: Manuel Miranda
+Carnet del estudiante: 2020123456
+cursos
+----------
+Codigo: 781
+Nombre: Organizacion de lenguajes y compiladores 2
+Nota: 80
+Creditos: 5
+----------
+Codigo: 722
+Nombre: Teoria de sistemas
+Nota: 90
+Creditos: 5
+----------
+Codigo: 778
+Nombre: Arquitectura computadoras y ensambladores 1
+Nota: 85
+Creditos: 5
+----------
+Codigo: 773
+Nombre: Manejo e implementacion de archivos
+Nota: 61
+Creditos: 4
+***Estudiante reconocido***
+Nombre del Estudiante: Erik Flores
+Carnet del estudiante: 201712345
+cursos
+----------
+Codigo: 781
+Nombre: Organizacion de lenguajes y compiladores 2
+Nota: 80
+Creditos: 5
+----------
+Codigo: 722
+Nombre: Teoria de sistemas
+Nota: 90
+Creditos: 5
+----------
+Codigo: 778
+Nombre: Arquitectura computadoras y ensambladores 1
+Nota: 85
+Creditos: 5
+----------
+Codigo: 773
+Nombre: Manejo e implementacion de archivos
+Nota: 61
+Creditos: 4
+}

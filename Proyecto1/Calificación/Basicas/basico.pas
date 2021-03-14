@@ -52,8 +52,8 @@ begin
     writeln('----Dentro de Iniciar Valores----');
     
     val1 := 7 - (5 + 10 * (2 + 4 * (5 + 2 * 3)) - 8 * 3 * 3) + 50 * (6 * 2);
-    val2 := (2 * 2 * 2 * 2) - 9 * (8 - 6 * (3 * 3 - 6 * 5 - 7 * (9 + 7 * 7 * 7) + 10) - 5) + 8 * (6 - 5 * (2 * 3));
-    val3 := val1 * ((2 + val2 * 3) + 1 - ((2 * 2 * 2) - 2) * 2) - 2;
+    val2 := (2 * 2 * 2 * 2) - 9 - (8 - 6 + (3 * 3 - 6 * 5 - 7 - (9 + 7 * 7 * 7) + 10) - 5) + 8 - (6 - 5 * (2 * 3));
+    val3 := val1 + ((2 + val2 * 3) + 1 - ((2 * 2 * 2) - 2) * 2) - 2;
 
     a := val1 + val2 - val3 + SumarNumeros(5, val1);
     b := SumarNumeros(5, a) - val1 * 2;
@@ -200,18 +200,18 @@ El valor de b es: 0
 -----------------------                                                                                                     
 ----Dentro de Iniciar Valores----                                                                                           
 El resultado de tu suma es: 219                                                                                             
-El resultado de tu suma es: 15515                                                                                           
-El resultado de tu suma es: -17858                                                                                          
+El resultado de tu suma es: -589                                                                                           
+El resultado de tu suma es: 1439                                                                                          
 -----------------------                                                                                                     
 El valor de V es: TRUE                                                                                                      
 El valor de F es: FALSE                                                                                                     
 El valor de datos es: 3                                                                                                     
 El valor de val1 es: 214
-El valor de val2 es: -2781                                                                                                  
-El valor de val3 es: -17858                                                                                                 
-El valor de resp es: -20425                                                                                                 
-El valor de a es: 15510                                                                                                     
-El valor de b es: 15087                                                                                                     
+El valor de val2 es: 412                                                                                                  
+El valor de val3 es: 1439                                                                                                 
+El valor de resp es: 2065                                                                                                 
+El valor de a es: -594                                                                                                     
+El valor de b es: -1017                                                                                                     
 -----------------------                                                                                                     
 -----------------------                                                                                                     
 Dentro de Inicio                                                                                                            

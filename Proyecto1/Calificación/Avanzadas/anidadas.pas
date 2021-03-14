@@ -40,3 +40,14 @@ begin
 	p1(1,x);
 	writeln('Valor Despues 1000 = ',x);
 end.
+
+{
+Valor Antes 2 = 2
+Local 31 = 31
+Ambito Padre 22 = 22
+Ambito Padre de Padre 13 = 13
+Global 4 = 4
+Parametro por valor de Padre de Padre 1 = 1
+Parametro por referencia de Padre de Padre 2 = 2
+Valor Despues 1000 = 1000
+}

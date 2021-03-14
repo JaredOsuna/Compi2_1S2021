@@ -17,7 +17,7 @@ type
 DoubleList = array[1..20] of Node;
 
 var actualDL : DoubleList;
-var count : integer = 0;
+var count : integer = 1;
 var first : integer = -1;
 var last : integer = -1;
 
@@ -183,3 +183,56 @@ begin
     InsertInto(16, 10);
     PrintListNormal();
 end.
+
+{
+    ---Insertando al inicio---
+Valor de nodo: 10
+Valor de nodo: 7
+Valor de nodo: 5
+---Insertando al final---
+Valor de nodo: 10
+Valor de nodo: 7
+Valor de nodo: 5
+Valor de nodo: 21
+Valor de nodo: 1
+Valor de nodo: 4
+---Insertando ambos---
+Valor de nodo: 101
+Valor de nodo: 50
+Valor de nodo: 50
+Valor de nodo: 10
+Valor de nodo: 7
+Valor de nodo: 5
+Valor de nodo: 21
+Valor de nodo: 1
+Valor de nodo: 4
+Valor de nodo: 100
+Valor de nodo: 8
+---Imprimiendo desde atras---
+Valor de nodo: 8
+Valor de nodo: 100
+Valor de nodo: 4
+Valor de nodo: 1
+Valor de nodo: 21
+Valor de nodo: 5
+Valor de nodo: 7
+Valor de nodo: 10
+Valor de nodo: 50
+Valor de nodo: 50
+Valor de nodo: 101
+---Insertando en 2, 5, 10---
+Valor de nodo: 101
+Valor de nodo: 16
+Valor de nodo: 17
+Valor de nodo: 18
+Valor de nodo: 50
+Valor de nodo: 50
+Valor de nodo: 10
+Valor de nodo: 7
+Valor de nodo: 5
+Valor de nodo: 21
+Valor de nodo: 1
+Valor de nodo: 4
+Valor de nodo: 100
+Valor de nodo: 8
+}
