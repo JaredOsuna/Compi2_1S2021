@@ -70,3 +70,9 @@ begin
 	wRiteLn('Despues del sort: ');
 	imprimirArreglo(v);
 end.
+{
+Antes del sort: 
+40, 21, 1, 3, 12, 4
+Despues del sort: 
+1, 3, 4, 12, 21, 40
+}
