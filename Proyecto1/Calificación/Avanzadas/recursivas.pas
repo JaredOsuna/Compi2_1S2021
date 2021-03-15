@@ -45,8 +45,11 @@ begin
     writeln('1 Factorial');
     writeln(factorial(6));
 
-    writeln('2 Ackermann');
-    writeln(ackermann(3,4));
+    writeln('2.1 Ackermann');
+    writeln(ackermann(3,1));
+
+    writeln('2.2 Ackermann');
+    writeln(ackermann(2,6));
     
     writeln('3 Hanoi');
     Hanoi(3, 'A', 'B', 'C');
@@ -55,8 +58,10 @@ end.
 {
     1 Factorial
     720
-    2 Ackermann
-    125
+    2.1 Ackermann
+    13
+    2.2 Ackermann
+    15
     3 Hanoi
     Mover Disco de A a C
     Mover disco de A a B
