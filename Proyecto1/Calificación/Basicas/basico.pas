@@ -39,7 +39,7 @@ end;
 
 function SumarNumeros(num1, num2 : integer):integer;
 var
-	resp : integer;
+    resp : integer;
 begin
     resp := num1 + num2;
     write('El resultado de tu suma es: ');
