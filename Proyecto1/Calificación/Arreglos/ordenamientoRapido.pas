@@ -2,7 +2,7 @@ program OrdenamientoRapido;
 type
     v_ = array [0..6] of integer;
 var
-	v : array[0 .. 6] of integer;
+	v : v_;
 
 
 (* paso el arreglo por referencia *)
