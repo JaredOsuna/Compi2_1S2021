@@ -5,8 +5,8 @@ type
 		min : integer = 0;
 		max : integer = 4;
 	var
-		matrixR : array [0..4, 0..4] of integer;
-		matrixA, matrixB : array [0..4,0..4] of integer;
+		matrixR : matriz;
+		matrixA, matrixB : matriz;
 
 procedure llenado(var matrixA, matrixB : matriz);
 var
@@ -93,7 +93,7 @@ begin
 end;
 procedure Transpose(var matrix : matriz);
 var
-	matrixAux : array[0..4,0..4] of integer;
+	matrixAux : matriz;
 	i,j : integer;
 begin
 	for i := min to max - 1 do
@@ -174,21 +174,21 @@ begin
 	suma(matrixA,matrixB,matrixR);
 	printMatrix(MatrixR);
 
-	writeln('MatR = MatA - MatB');
-	resta(matrixA,matrixB,matrixR);
-	printMatrix(MatrixR);
+	{writeln('MatR = MatA - MatB');
+		resta(matrixA,matrixB,matrixR);
+		printMatrix(MatrixR);}
 	
-	writeln('Clear MatR');
-	clearMat(matrixR);
-	printMatrix(matrixR);
+	{writeln('Clear MatR');
+		clearMat(matrixR);
+		printMatrix(matrixR);}
 
-	writeln('MatR = MatA * MatB');
-	mult(matrixa,matrixb,matrixr);
-	printmatrix(matrixr);
+	{writeln('MatR = MatA * MatB');
+		mult(matrixa,matrixb,matrixr);
+		printmatrix(matrixr);}
 
-	writeln('Tranpose(MatA)');
-	transpose(matrixA);
-	printmatrix(matrixa);
+	{writeln('Tranpose(MatA)');
+		transpose(matrixA);
+		printmatrix(matrixa);}
 
 	minValue(matrixR);
 	maxValue(matrixR);
@@ -204,56 +204,37 @@ begin
 	sumaFilas(matrixa);
 	sumacolumnas(matrixa);
 end.
+
 {
 	Matrix A
-    |    0    |    3    |    6    |    9    |
-    |    1    |    4    |    7    |    10    |
-    |    2    |    5    |    8    |    11    |
-    |    3    |    6    |    9    |    12    |
+    |    0    |    -1    |    -4    |    -9    |
+    |    1    |    0    |    -3    |    -8    |
+    |    8    |    7    |    4    |    -1    |
+    |    27    |    26    |    23    |    18    |
 Matrix B
     |    0    |    -1    |    -4    |    -9    |
     |    1    |    0    |    -3    |    -8    |
     |    8    |    7    |    4    |    -1    |
     |    27    |    26    |    23    |    18    |
 MatR = MatA + MatB
-    |    0    |    2    |    2    |    0    |
-    |    2    |    4    |    4    |    2    |
-    |    10    |    12    |    12    |    10    |
-    |    30    |    32    |    32    |    30    |
-MatR = MatA - MatB
-    |    0    |    4    |    10    |    18    |
-    |    0    |    4    |    10    |    18    |
-    |    -6    |    -2    |    4    |    12    |
-    |    -24    |    -20    |    -14    |    -6    |
-Clear MatR
-    |    0    |    0    |    0    |    0    |
-    |    0    |    0    |    0    |    0    |
-    |    0    |    0    |    0    |    0    |
-    |    0    |    0    |    0    |    0    |
-MatR = MatA * MatB
-    |    294    |    276    |    222    |    132    |
-    |    330    |    308    |    242    |    132    |
-    |    366    |    340    |    262    |    132    |
-    |    402    |    372    |    282    |    132    |
-Tranpose(MatA)
-    |    0    |    1    |    2    |    3    |
-    |    3    |    4    |    5    |    6    |
-    |    6    |    7    |    8    |    9    |
-    |    9    |    10    |    11    |    12    |
-Min -> [0,3] = 132
-Max -> [3,0] = 402
+    |    0    |    -2    |    -8    |    -18    |
+    |    2    |    0    |    -6    |    -16    |
+    |    16    |    14    |    8    |    -2    |
+    |    54    |    52    |    46    |    36    |
+Min -> [0,3] = -18
+Max -> [3,0] = 54
 Sort MatA
-    |    132    |    132    |    132    |    132    |
-    |    222    |    242    |    262    |    276    |
-    |    282    |    294    |    308    |    330    |
-    |    340    |    366    |    372    |    402    |
-Min -> [0,0] = 132
-Max -> [3,3] = 402
+    |    -18    |    -16    |    -8    |    -6    |
+    |    -2    |    -2    |    0    |    0    |
+    |    2    |    8    |    14    |    16    |
+    |    36    |    46    |    52    |    54    |
+Min -> [0,0] = -18
+Max -> [3,3] = 54
 Suma Filas y Columnas
                                         R
-    |    0    |    1    |    2    |    3    |    6
-    |    3    |    4    |    5    |    6    |    18
-    |    6    |    7    |    8    |    9    |    30
-    |    9    |    10    |    11    |    12    |    42
-R    |    18    |    22    |    26    |    30
+    |    -18    |    -16    |    -8    |    -6    |    -48
+    |    -2    |    -2    |    0    |    0    |    -4
+    |    2    |    8    |    14    |    16    |    40
+    |    36    |    46    |    52    |    54    |    188
+R    |    18    |    36    |    58    |    64
 }
