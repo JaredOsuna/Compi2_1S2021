@@ -172,7 +172,6 @@ SWITCH BIEN
 1 por 8 es 8
 1 por 9 es 9
 1 por 10 es 10
-
 2 por 1 es 2
 2 por 2 es 4
 2 por 3 es 6
@@ -183,7 +182,6 @@ SWITCH BIEN
 2 por 8 es 16
 2 por 9 es 18
 2 por 10 es 20
-
 3 por 1 es 3
 3 por 2 es 6
 3 por 3 es 9
@@ -194,7 +192,6 @@ SWITCH BIEN
 3 por 8 es 24
 3 por 9 es 27
 3 por 10 es 30
-
 4 por 1 es 4
 4 por 2 es 8
 4 por 3 es 12
@@ -205,7 +202,6 @@ SWITCH BIEN
 4 por 8 es 32
 4 por 9 es 36
 4 por 10 es 40
-
 5 por 1 es 5
 5 por 2 es 10
 5 por 3 es 15
